@@ -1,6 +1,7 @@
 body {
     font-family: "Roboto", sans-serif;
-    color: #FFF;
+    color: #434455;
+    background-color: #FFFFFF
 }
 
 /* Header */
@@ -11,23 +12,25 @@ header {
 }
 
 .logo {
-    color: #2E2F42;
+    color: #4d5ae5;
     font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 21px;
+    line-height: 1.17;
     letter-spacing: 0.54px;
     text-transform: uppercase;
     text-decoration: none;
+}
+
+.logo-fragment{
+    color: #2e2f42;
 }
 
 .logo:hover, .logo:focus {
     color: #404BBF;
 }
 
-.logo-fragment {
-    color: #4D5AE5;
-}
+
 
 .nav-li-a-header {
     color: #2E2F42;
@@ -38,6 +41,14 @@ header {
     text-decoration: none;
 }
 
+.nav-li-a-header:hover, .nav-li-a-header:focus {
+    color: #404bbf;    
+}
+
+.info-company {
+    font-style: normal;   
+}
+
 .info-company-mail, .info-company-tel {
     color: #434455;
     font-size: 16px;
@@ -45,6 +56,10 @@ header {
     line-height: 24px;
     letter-spacing: 0.32px;    
     text-decoration: none;
+}
+
+.info-company-mail:hover, .info-company-mail:focus, .info-company-tel:hover, .info-company-tel:focus {
+    color: #404bbf;   
 }
 
 /* Section 1 */
@@ -61,13 +76,13 @@ header {
     font-size: 56px;
     font-style: normal;
     font-weight: 700;
-    line-height: 60px;
+    line-height: 1.07;
     letter-spacing: 1.12px;
 }
 
 .page-title-button {
     color: #FFF;
-    font-family: Roboto;
+    font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -83,9 +98,13 @@ header {
     cursor: pointer;
 }
 
+.page-title-button:hover, .page-title-button:focus {
+    background-color: #404BBF;    
+}
+
 /* Section 2 */
 
-.strategy, .punctuality, .diligence, .technologies {
+.main-theses {
     color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
@@ -93,7 +112,7 @@ header {
     letter-spacing: 0.4px;    
 }
 
-.strategy-text, .punctuality-text, .diligence-text, .technologies-text {
+.main-theses-text {
     color: #434455;
     font-size: 16px;
     font-weight: 400;
@@ -112,7 +131,7 @@ header {
     text-align: center;
     font-size: 36px;
     font-weight: 700;
-    line-height: 40px;
+    line-height: 1.11;
     letter-spacing: 0.72px;
     text-transform: capitalize;    
 }
