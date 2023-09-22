@@ -7,7 +7,6 @@ body {
 /* Header */
 
 header {
-    border-bottom: 1px solid #E7E9FC;
     background-color: #FFF;
 }
 
@@ -32,7 +31,7 @@ header {
 
 
 
-.nav-li-a-header {
+.link {
     color: #2E2F42;
     font-size: 16px;
     font-weight: 500;
@@ -41,7 +40,7 @@ header {
     text-decoration: none;
 }
 
-.nav-li-a-header:hover, .nav-li-a-header:focus {
+.link:hover, .link:focus {
     color: #404bbf;    
 }
 
@@ -49,7 +48,7 @@ header {
     font-style: normal;   
 }
 
-.info-company-mail, .info-company-tel {
+.info-company-contacts {
     color: #434455;
     font-size: 16px;
     font-weight: 400;
@@ -58,7 +57,7 @@ header {
     text-decoration: none;
 }
 
-.info-company-mail:hover, .info-company-mail:focus, .info-company-tel:hover, .info-company-tel:focus {
+.info-company-contacts:hover, .info-company-contacts:focus {
     color: #404bbf;   
 }
 
@@ -155,10 +154,24 @@ header {
     letter-spacing: 0.32px;
 }
 
+.background {
+    background-color: #FFFFFF;    
+}
+
 /* Footer */
 
 .footer {
     background: #2E2F42;    
+}
+
+.logo-part-variant {
+    color: var(--CLOUD, #f4f4fd);
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
 }
 
 .footer-text {
